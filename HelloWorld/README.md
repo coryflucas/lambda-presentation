@@ -12,6 +12,8 @@ Edit `HelloWorld.csproj`:
 - Change `TargetFramework` to `netcoreapp2.1`
 - Add `<GenerateRuntimeConfigurationFiles>true</GenerateRuntimeConfigurationFiles>`
 
+Add `Function.cs`
+
 ## Steps to package project:
 ```
 dotnet publish -c Release -o out
