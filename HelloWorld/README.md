@@ -3,12 +3,12 @@ Hello World AWS Lambda with .NET Core
 ## Steps to create project:
 ```
 dotnet new classlib
-rm Class1.cs
 dotnet add package Amazon.Lambda.Core
 dotnet add package Amazon.Lambda.Serialization.Json
+rm Class1.cs
 ```
 
-Edit `hello-world.csproj`:
+Edit `HelloWorld.csproj`:
 - Change `TargetFramework` to `netcoreapp2.1`
 - Add `<GenerateRuntimeConfigurationFiles>true</GenerateRuntimeConfigurationFiles>`
 
