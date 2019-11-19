@@ -24,6 +24,8 @@ services.AddSingleton<IAmazonDynamoDB>(new AmazonDynamoDBClient());
 
 Add the `ShortUrlContoller`
 
+Add the `DynamoDBTable` resource to the `serverless.tempate`
+
 ## To Run Local:
 ```
 cd src/AspNetCore
