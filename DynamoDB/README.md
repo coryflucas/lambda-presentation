@@ -42,4 +42,9 @@ cd src/DynamoDB
 dotnet lambda deploy-serverless
 ```
 
+## Example Requests:
 
+```
+BASE_URL=...
+curl -v -k ${BASE_URL}/url -H "content-type: application/json" --data '{"url": "https://example.com"}'
+```
